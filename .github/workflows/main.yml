@@ -9,3 +9,5 @@ jobs:
         uses: actions/checkout@v4       
       - name: jeg en gaard
         run: ci/build-app.sh
+      - name: another step added 
+        run: ci/unit-test-app.sh
